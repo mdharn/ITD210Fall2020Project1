@@ -70,7 +70,45 @@ h1 {
 	text-align: center;
 	margin-top: 150px;
 }
- 
+ .contact {
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	display: block;
+ 	font-style: italic;
+ 	color: orange;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 200px;
+}
+.card {
+	flex: 0 1 20%;
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.card__image {
+	max-width: 100%;
+}
+.card_content{
+	padding: 0 20px 20px;
+}
+
+
+
+
+
+ footer {
+ 	display: block;
+  text-align: center;
+  padding: 3px;
+  background-color: navy;
+  color: white;
+
+ }
 
 	
 
