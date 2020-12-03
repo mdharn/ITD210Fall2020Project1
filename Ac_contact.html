@@ -40,11 +40,11 @@
         </div>
       </nav>
       <div class="contact">
-      <h2>Call or email today for your free quote!</h2>
-      <h1>757-570-8930</h1>
-      <h1><a href="mailto:emailaddress@example.com">Send us an email</a></h1>
+      <h2>Call, text or email today for your free quote!</h2>
+      <h1><a href="tel:7575708930">757-570-8930</a></h1>
+      <h1><a href="mailto:milos@aquacarepools.us">milos@aquacarepools.us</a></h1>
     
-      <img src="3615.jpg" class="img-fluid" alt="Responsive image">
+      <img src="3615.jpg" class="img-fluid" alt="contact" width="100%" height="250">
     </div>
        
       
@@ -52,27 +52,16 @@
     
     <footer>
       <a href='https://www.freepik.com/photos/travel'>Travel photo created by lifeforstock - www.freepik.com</a>
-    </footer>
-  
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      </footer>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+      $('.navbar-header button.navbar-toggle').on('click', function() {
+        $('.navbar-nav').toggleClass('active');
+      })
+</script>
+     
   </body>
 </html>

@@ -26,7 +26,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href=""><img class="logo" src="acps_logo.png"></a>
+            <a href=""><img class="logo" src="acps_logo.png" width="75%" height="50%"></a>
           </div>
           <div class="collapse navbar-collapse" id="micon"></div>
           <ul class="nav navbar-nav navbar-right">
@@ -39,15 +39,16 @@
           </div>
         </div>
       </nav>
-      <div class="callus">
-      <h2>Call us today for your free quote!</h2>
-      <h1>757-570-8930</h1>
-    </div>
+      <div class="flex-container">
+      <h2>Call or text today for your free quote!</h2>
+      <h1><a href="tel:7575708930">757-570-8930</a></h1>
+      <p>Mention this website and receive $25 off of your first service!</p>
+    </div>v
     <div class ="wrapper">
     <h1>Photo Gallery</h1>
     <div class="groupA">
     <img src="Logo_and_Pictures/IMG_4426.jpg" alt="b1" width="245" height="300">
-    <img src="Logo_and_Pictures/IMG_4431.jpg" align="a1" width="245" height="300">
+    <img src="Logo_and_Pictures/IMG_4431.jpg" alt="a1" width="245" height="300">
     <img src="Logo_and_Pictures/IMG_4583.jpg" alt="b2" width="245" height="300">
     <img src="Logo_and_Pictures/IMG_4612.jpg" alt="a2" width="245" height="300">
   </div>
@@ -63,6 +64,9 @@
     <img src="Logo_and_Pictures/IMG_5619.jpg" alt="b6" width="245" height="300">
     <img src="Logo_and_Pictures/IMG_5622.jpg" alt="a6" width="245" height="300">
   </div>
+
+
+  
     <footer>
       
     </footer>
@@ -85,5 +89,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+      $('.navbar-header button.navbar-toggle').on('click', function() {
+        $('.navbar-nav').toggleClass('active');
+      })
+</script>
   </body>
 </html>
